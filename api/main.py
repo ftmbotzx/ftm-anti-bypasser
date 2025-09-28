@@ -12,9 +12,9 @@ import asyncio
 import base64
 
 # -------- CONFIG ----------
-MONGO_URI = os.environ["MONGODB_URI"]         # mongodb+srv://...
-SECRET = os.environ.get("SECRET", "change_me_very_strong")
-BASE_URL = os.environ.get("BASE_URL", "https://yourproject.vercel.app")
+MONGO_URI = mongodb+srv://Ansh089:Ansh089@cluster0.y8tpouc.mongodb.net/?retryWrites=true&w=majority         # mongodb+srv://...
+SECRET = os.environ.get("SECRET", "ftmbotzx@2025")
+BASE_URL = os.environ.get("BASE_URL", "https://ftm-anti-bypasser.vercel.app")
 TOKEN_TTL = 120           # seconds
 CHALLENGE_TTL = 120
 MAX_RETRIES = 4
