@@ -1,6 +1,4 @@
 
-MONGO_URI = os.environ.get("DB_URI", "")
-SECRET = os.environ.get("SECRET", "ftmbotzx@2025")
 # file: api/main.py
 import os
 import time
