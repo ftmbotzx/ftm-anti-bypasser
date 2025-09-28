@@ -25,7 +25,7 @@ TOKEN_TTL = 120           # seconds
 CHALLENGE_TTL = 120
 MAX_RETRIES = 4
 POW_DIFFICULTY = int(os.environ.get("POW_DIFFICULTY", "12"))  # Reduced from 18 to 12 bits for faster computation
-RECAPTCHA_SECRET = os.environ.get("RECAPTCHA_SECRET", "")  # optional
+RECAPTCHA_SECRET = os.environ.get("RECAPTCHA_SECRET", "6Lc4INgrAAAAAIsGZCailUpP3KDq_t0kzXlPTAb2")  # optional
 
 # -------- DB ----------
 # Add shorter timeouts for better user experience
